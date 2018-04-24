@@ -3,7 +3,7 @@ import { IndexLink, Link } from "react-router";
 
 export default class Nav extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
       collapsed: true,
     };
